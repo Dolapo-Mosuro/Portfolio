@@ -8,23 +8,193 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <nav class="navbar">
-        <div class="logo">
-            <img src="/Images/Logo.png">
+        <div class="max-width">
+            <div class="logo">
+            <img src="images/Logo.png">
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
     </nav>
-    <section id="home">
-        <div class="main">
-            <h1 class="headings">I AM <br class="sep">  Dolapo</h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium debitis laboriosam <br>velit officia eius iure deserunt ad labore? <br>Perferendis asperiores omnis fuga dolores commodi laudantium voluptatibus veniam quo similique possimus.</p>
-        <button class="btn">Hire Me</button>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">
+                    <h1>Hi, I am</h1>
+                </div>
+                <div class="text-2">
+                    <h1>Dolapo</h1>
+                </div>
+                <a href="#">Hire me</a>
+            </div>
         </div>
     </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/Dolapo4.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Dolapo</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <div class="skills-content">
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span>Figma</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line Figma"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Adobe</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line Adobe"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Prototyping</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line Prototyping"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Wireframing</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line Wireframing"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line html"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line css"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+  
+    <!-- Portfolio section start -->
+    <section class="Portfolio" id="Portfolio">
+        <div class="max-width">
+            <h2 class="title">Portfolio</h2>
+            <div class="carousel owl-carousel">
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <img src="images/profile-1.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <img src="images/profile-2.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <img src="images/profile-3.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <div class="content">
+                        <img src="images/profile-5.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+                    <div class="column right">
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Dolapo Mosuro</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
 </body>
-</html>
