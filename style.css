@@ -66,11 +66,13 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
+    flex-direction: column;
+    align-items: flex-start;
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -173,7 +175,6 @@ section .title::after{
     margin: 5px 0;
     color: #A8810C;
     font-weight: normal;
-    letter-spacing: normal;
 }
 .home .home-content .text-3 span{
     color: #A8810C;
