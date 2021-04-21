@@ -123,33 +123,6 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
-.scroll-up-btn{
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    background: #A8810C;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
-    color: #fff;
-    z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
-    border-bottom-width: 2px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-.scroll-up-btn.show{
-    bottom: 30px;
-    opacity: 1;
-    pointer-events: auto;
-}
-.scroll-up-btn:hover{
-    filter: brightness(90%);
-}
 
   
 /* home section styling */
@@ -327,39 +300,69 @@ section .title::after{
 }
 
 /*Portfolio*/
-.row {
+/* Content */
+.Portfolio .max-width{
+      
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/*h3*/
+.h3{
+    text-align: center;
+    
+}
+
+.row1 {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+  .row1,
+  .row1 > .column {
     padding: 8px;
   }
   
   /* Create four equal columns that floats next to each other */
+
   .column {
     float: left;
     width: 25%;
   }
   
   /* Clear floats after rows */
-  .row:after {
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*row2*/
+  .row2 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row2,
+  .row1 > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: center;
+    width: 25%;
+    align-items: center;
+  }
+  
+  /* Clear floats after rows */
+  .row2:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  /*h3*/
-  .h3{
-      text-align: center;
-      
-  }
+  
   
 /* contact section styling */
 #contact .max-width{
@@ -382,7 +385,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 
-}
+
 .contact .right form .fields{
     display: none ;
     align-content: center;
@@ -429,20 +432,19 @@ section .title::after{
 }
 .contact .right form .button button{
     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100%;
-    border: 2px solid #A8810C;
-    background: #A8810C;
-    color: #fff;
-    outline: none;
     font-size: 20px;
     font-weight: 500;
+    border: 2px solid #ffffff;
+    color: #fff;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: #A8810C;
-    background: none;
+    color: #fff;
+    background: #A8810C;
 }
 
 /* footer section styling */
