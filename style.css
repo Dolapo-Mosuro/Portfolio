@@ -14,13 +14,20 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px;
+    padding: 1rem;
+  background: black;
 }
-.max-width{
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #ffff;
+  width: 1080px;
+}
+/*.max-width{
     max-width: 1500px;
     padding: 0 80px;
     margin: auto;
-}
+}*/
 .about, .services, .skills, .Portfolio, .contact, footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
